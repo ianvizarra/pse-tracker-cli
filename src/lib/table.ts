@@ -11,11 +11,14 @@ export class Table {
       left: border('║'), 'left-mid': border('╟'), mid: border('─'), 'mid-mid': border('┼'),
       right: border('║'), 'right-mid': border('╢'), middle: border('│')}
 
+    public code = `Code: ${pkg.homepage}`
+
+    public source = 'Source: https://phisix-api.appspot.com'
+
     percentChange(change: number) {
-      if (change < 0) {
-        return chalk.redBright(change + '%')
-      }
-      return chalk.greenBright(change + '%')
+      return (change < 0) ?
+        chalk.redBright(change + '%') :
+        chalk.greenBright(change + '%')
     }
 
     white(text: string) {
@@ -35,6 +38,8 @@ export class Table {
         [chalk.bold.yellowBright('Price'), this.white(`${stock.price.currency} ${stock.price.amount.toFixed(2)}`)],
         [chalk.bold.green('% Change'), this.percentChange(stock.percent_change)],
         [chalk.bold.blue('Volume'), this.white(stock.volume.toLocaleString())],
+        [{colSpan: 2, content: chalk.white(this.source)}],
+        [{colSpan: 2, content: chalk.white(this.code)}],
       )
       return table.toString()
     }
