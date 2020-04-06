@@ -1,9 +1,11 @@
 import chalk = require('chalk')
 import {APIResponse} from '../types/stock'
 import Table3 = require('cli-table3')
+import terminalLink = require('terminal-link');
 
 const pkg = require('../../package.json')
 const border = (char: string) => chalk.blue(char)
+const apiURL = 'https://phisix-api.appspot.com';
 
 export class Table {
     private chars =  {top: border('═'), 'top-mid': border('╤'), 'top-left': border('╔'), 'top-right': border('╗'),
@@ -11,9 +13,9 @@ export class Table {
       left: border('║'), 'left-mid': border('╟'), mid: border('─'), 'mid-mid': border('┼'),
       right: border('║'), 'right-mid': border('╢'), middle: border('│')}
 
-    public code = `Code: ${pkg.homepage}`
+    public code = `Code: ${terminalLink(pkg.homepage, pkg.homepage)}`
 
-    public source = 'Source: https://phisix-api.appspot.com'
+    public source = `Source: ${terminalLink(apiURL, apiURL)}`
 
     percentChange(change: number) {
       return (change < 0) ?
