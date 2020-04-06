@@ -14,24 +14,19 @@ Philippines Stock Market CLI Tracker Tool
 <!-- toc -->
 - [pse-cli-tracker](#pse-cli-tracker)
 - [Usage](#usage)
-- [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
 ```sh-session
 $ npm install -g pse-cli-tracker
+
 $ pse [SYMBOL]
 running command...
-$ pse (-v|--version|version)
-pse-cli-tracker/0.0.1 darwin-x64 node-v13.12.0
+
 $ pse --help [COMMAND]
+
 USAGE
   $ pse [SYMBOL]
   $ pse --stock=symbol
 ...
 ```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
-
-<!-- commandsstop -->

@@ -1,11 +1,11 @@
 import chalk = require('chalk')
-import {APIResponse} from '../types/stock'
 import Table3 = require('cli-table3')
-import terminalLink = require('terminal-link');
+import terminalLink = require('terminal-link')
+import {APIResponse} from '../types/stock'
+import {apiURL} from './config'
 
 const pkg = require('../../package.json')
 const border = (char: string) => chalk.blue(char)
-const apiURL = 'https://phisix-api.appspot.com'
 
 export class Table {
     private chars =  {top: border('═'), 'top-mid': border('╤'), 'top-left': border('╔'), 'top-right': border('╗'),
