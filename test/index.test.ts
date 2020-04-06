@@ -6,8 +6,8 @@ describe('pse-cli-tracker', () => {
   test
   .stdout()
   .do(() => cmd.run([]))
-  .it('runs hello', ctx => {
-    expect(ctx.stdout).to.contain('hello world')
+  .it('runs pse BPI', ctx => {
+    expect(ctx.stdout).to.contain('BPI')
   })
 
   test

@@ -2,8 +2,8 @@ import {Command, flags} from '@oclif/command'
 import axios from 'axios'
 import clear = require('clear')
 import ora = require('ora')
-import Table = require('cli-table3')
-import {APIResponse} from './stock'
+import {APIResponse} from './types/stock'
+import {Table} from './lib/table'
 
 const spinner = ora({text: 'Loading Stock Info'})
 
@@ -43,29 +43,9 @@ class PseCliTracker extends Command {
   }
 
   display(apiData: APIResponse) {
-    const table = this.buildTable(apiData)
-    this.log(table)
-  }
-
-  buildTable(apiData: APIResponse) {
-    const stock = apiData.stock[0]
-    const table = new Table({
-      style: {
-        head: [],
-        border: [],
-      },
-    })
-
-    table.push(
-      [{colSpan: 2, content: 'Philippine Stock Exchange CLI Tracker'}],
-      ['Name', stock.name],
-      ['Symbol', stock.symbol],
-      ['Price', `${stock.price.currency} ${stock.price.amount}`],
-      ['Percentage Change', stock.percent_change],
-      ['Volume', stock.volume],
-      ['As of', apiData.as_of]
-    )
-    return table.toString()
+    const table = new Table()
+    const tableData = table.build(apiData)
+    this.log(tableData)
   }
 }
 
