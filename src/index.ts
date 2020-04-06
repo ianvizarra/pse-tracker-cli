@@ -2,6 +2,8 @@ import {Command, flags} from '@oclif/command'
 import axios from 'axios'
 import clear = require('clear')
 import ora = require('ora')
+import Table = require('cli-table3')
+import {Stock, APIResponse} from './stock'
 
 const spinner = ora({text: 'Loading Stock Info'})
 
@@ -27,10 +29,10 @@ class PseCliTracker extends Command {
       clear()
       spinner.start()
       this.getStocks(symbol).then(result => {
-        this.display(result.data.stock)
         spinner.stop()
+        this.display(result.data)
       }).catch(() => {
-        spinner.fail('Unable to load stock info')
+        spinner.fail('Unable to load stock')
       })
     }
   }
@@ -40,8 +42,29 @@ class PseCliTracker extends Command {
     return stockInfo
   }
 
-  display(stock: string | undefined) {
-    this.log(stock)
+  display(apiData: APIResponse) {
+    const table = this.buildTable(apiData)
+    this.log(table)
+  }
+
+  buildTable(apiData: APIResponse) {
+    const stock = apiData.stock[0]
+    const table = new Table({
+      style: {
+        head: [],
+        border: [],
+      },
+    })
+
+    table.push(
+      ['Name', stock.name],
+      ['Symbol', stock.symbol],
+      ['Price', `${stock.price.currency} ${stock.price.amount}`],
+      ['Percentage Change', stock.percent_change],
+      ['Volume', stock.volume],
+      ['As of', apiData.as_of]
+    )
+    return table.toString()
   }
 }
 
