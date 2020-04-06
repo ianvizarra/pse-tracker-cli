@@ -29,6 +29,8 @@ class PseCliTracker extends Command {
       this.getStocks(symbol).then(result => {
         this.display(result.data.stock)
         spinner.stop()
+      }).catch(() => {
+        spinner.fail('Unable to load stock info')
       })
     }
   }
