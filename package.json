@@ -44,7 +44,17 @@
   ],
   "homepage": "https://github.com/ianvizarra/pse-cli-tracker",
   "keywords": [
-    "oclif"
+    "oclif",
+    "philippines",
+    "stock-market",
+    "bearish",
+    "bullish",
+    "candle-stick",
+    "investment",
+    "stocks",
+    "market",
+    "psei",
+    "ian vizarra"
   ],
   "license": "MIT",
   "main": "lib/index.js",
