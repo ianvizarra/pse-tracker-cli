@@ -57,6 +57,7 @@ class PseCliTracker extends Command {
     })
 
     table.push(
+      [{colSpan: 2, content: 'Philippine Stock Exchange CLI Tracker'}],
       ['Name', stock.name],
       ['Symbol', stock.symbol],
       ['Price', `${stock.price.currency} ${stock.price.amount}`],
