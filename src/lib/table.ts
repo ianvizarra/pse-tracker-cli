@@ -5,7 +5,7 @@ import terminalLink = require('terminal-link');
 
 const pkg = require('../../package.json')
 const border = (char: string) => chalk.blue(char)
-const apiURL = 'https://phisix-api.appspot.com';
+const apiURL = 'https://phisix-api.appspot.com'
 
 export class Table {
     private chars =  {top: border('═'), 'top-mid': border('╤'), 'top-left': border('╔'), 'top-right': border('╗'),
