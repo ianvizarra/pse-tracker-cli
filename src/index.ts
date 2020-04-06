@@ -16,7 +16,7 @@ const bmcline = 'Love this project? Please consider to support the \n developmen
 const twitterline = 'Follow me on twitter for more updates!'
 
 class PseCliTracker extends Command {
-  static description = 'Display Stock Info'
+  static description = 'Display Philippine Stocker Market Stock Info by Symbol'
 
   static examples = [
     '$ pse BDO',
