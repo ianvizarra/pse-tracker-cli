@@ -12,8 +12,9 @@ Philippines Stock Market CLI Tracker Tool
 [![License](https://img.shields.io/npm/l/pse-cli-tracker.svg)](https://github.com/ianvizarra/pse-cli-tracker/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+- [pse-cli-tracker](#pse-cli-tracker)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
 # Usage
 <!-- usage -->
