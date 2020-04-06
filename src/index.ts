@@ -3,7 +3,7 @@ import axios from 'axios'
 import clear = require('clear')
 import ora = require('ora')
 import Table = require('cli-table3')
-import {Stock, APIResponse} from './stock'
+import {APIResponse} from './stock'
 
 const spinner = ora({text: 'Loading Stock Info'})
 
