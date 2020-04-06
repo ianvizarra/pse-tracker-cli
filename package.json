@@ -16,6 +16,7 @@
     "clear": "^0.1.0",
     "cli-table3": "^0.6.0",
     "ora": "^4.0.3",
+    "terminal-link": "^2.1.1",
     "tslib": "^1.11.1"
   },
   "devDependencies": {
