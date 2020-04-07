@@ -6,10 +6,7 @@
 </p>
 
 
-Philippine Stock Exchange Tracker CLI
-===============
-
-Display stock information on your console
+# Philippine Stock Exchange Tracker CLI
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/pse-tracker-cli.svg)](https://npmjs.org/package/pse-tracker-cli)
@@ -19,8 +16,22 @@ Display stock information on your console
 [![Downloads/week](https://img.shields.io/npm/dw/pse-tracker-cli.svg)](https://npmjs.org/package/pse-tracker-cli)
 [![License](https://img.shields.io/npm/l/pse-tracker-cli.svg)](https://github.com/ianvizarra/pse-tracker-cli/blob/master/package.json)
 
+> Display stock information on your console
 
+<p align="center"><img src="/.doc/demo.gif?raw=true"/></p>
+
+- [Installation](#installation)
 - [Usage](#usage)
+
+# Installation
+
+You need to install [Node.js](https://nodejs.org/en/download/) first, then install the tool globally using this command:
+
+```bash
+npm install -g pse-tracker-cli
+```
+<p align="center"><img src="/.doc/install.gif?raw=true"/></p>
+
 
 # Usage
 
