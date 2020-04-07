@@ -1,3 +1,11 @@
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/pse-tracker-cli">
+    <img src="/.doc/logo.png?raw=true" width="200"/>
+  </a>
+</p>
+
+
 Philippine Stock Exchange Tracker CLI
 ===============
 
