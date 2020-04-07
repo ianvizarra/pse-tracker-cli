@@ -48,7 +48,7 @@ jobs:
 
 workflows:
   version: 2
-  "pse-cli-tracker":
+  "pse-tracker-cli":
     jobs:
       - node-latest
       - node-12

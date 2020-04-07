@@ -1,12 +1,12 @@
 {
-  "name": "pse-cli-tracker",
+  "name": "pse-tracker-cli",
   "description": "Philippines Stock Market CLI Tracker Tool",
   "version": "0.1.0",
   "author": "ianvizarra @ianvizarra",
   "bin": {
     "pse": "./bin/run"
   },
-  "bugs": "https://github.com/ianvizarra/pse-cli-tracker/issues",
+  "bugs": "https://github.com/ianvizarra/pse-tracker-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.14.0",
@@ -42,7 +42,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/ianvizarra/pse-cli-tracker",
+  "homepage": "https://github.com/ianvizarra/pse-tracker-cli",
   "keywords": [
     "oclif",
     "philippines",
@@ -61,7 +61,7 @@
   "oclif": {
     "bin": "pse"
   },
-  "repository": "ianvizarra/pse-cli-tracker",
+  "repository": "ianvizarra/pse-tracker-cli",
   "scripts": {
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev readme",

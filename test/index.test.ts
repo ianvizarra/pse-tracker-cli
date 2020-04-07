@@ -2,7 +2,7 @@ import {expect, test} from '@oclif/test'
 
 import cmd = require('../src')
 
-describe('pse-cli-tracker', () => {
+describe('pse-tracker-cli', () => {
   test
   .stdout()
   .do(() => cmd.run([]))
