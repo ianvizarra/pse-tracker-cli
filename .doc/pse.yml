@@ -1,0 +1,231 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/ianvizarra/Codes/pse-tracker-cli
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 86
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: PSE Tracker CLI
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 928
+    content: "\r\n\e[32mianvizarra $ \e[39m"
+  - delay: 128
+    content: p
+  - delay: 128
+    content: s
+  - delay: 128
+    content: e
+  - delay: 128
+    content: ' '
+  - delay: 128
+    content: J
+  - delay: 128
+    content: F
+  - delay: 128
+    content: C
+  - delay: 128
+    content: "\r\n"
+  - delay: 177
+    content: "\e[2J\e[0f\e[?25l\e[36m⠋\e[39m Loading Stock Info"
+  - delay: 81
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading Stock Info"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading Stock Info"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading Stock Info"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading Stock Info"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading Stock Info"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading Stock Info"
+  - delay: 86
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading Stock Info"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading Stock Info"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading Stock Info"
+  - delay: 61
+    content: "\e[2K\e[1G\e[?25h"
+  - delay: 40
+    content: "\e[90m\e[34m╔\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m╗\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[92mPhilippine Stock Exchange CLI Tracker v0.1.1\e[39m\e[22m        \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[93mAs of 4/7/2020, 12:50:00 PM\e[39m\e[22m                         \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m╤\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[96mName\e[39m\e[22m                    \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mJollibee\e[39m\e[22m                  \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[31mSymbol\e[39m\e[22m                  \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mJFC\e[39m\e[22m                       \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[93mPrice\e[39m\e[22m                   \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mPHP 110.50\e[39m\e[22m                \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[32m% Change\e[39m\e[22m                \e[90m\e[34m│\e[90m\e[39m \e[92m4.25%\e[39m                     \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[34mVolume\e[39m\e[22m                  \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37m2,745,330\e[39m\e[22m                 \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╧\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[37mSource: \e]8;;https://phisix-api.appspot.com\ahttps://phisix-api.appspot.com\e]8;;\a\e[39m              \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[37mCode: \e]8;;https://github.com/ianvizarra/pse-tracker-cli\ahttps://github.com/ianvizarra/pse-tracker-cli\e]8;;\a\e[39m \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╚\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m╝\e[90m\e[39m\r\n\r\n Love this project? Please consider to support the \r\n development by means of coffee!\r\n\r\n \e]8;;https://www.buymeacoffee.com/ianvizarra\a\e[32mhttps://www.buymeacoffee.com/ianvizarra\e[39m\e]8;;\a \r\n\r\n Follow me on twitter for more updates!\r\n \e]8;;https://twitter.com/@ianvizarra\a\e[34m@ianvizarra\e[39m\e]8;;\a\r\n\r\n\e[?25h"
+  - delay: 13
+    content: "\r\n\e[32mianvizarra $ \e[39m"
+  - delay: 400
+    content: p
+  - delay: 128
+    content: s
+  - delay: 128
+    content: e
+  - delay: 128
+    content: ' '
+  - delay: 128
+    content: '-'
+  - delay: 128
+    content: '-'
+  - delay: 128
+    content: s
+  - delay: 128
+    content: t
+  - delay: 128
+    content: o
+  - delay: 128
+    content: c
+  - delay: 128
+    content: k
+  - delay: 128
+    content: =
+  - delay: 128
+    content: J
+  - delay: 128
+    content: F
+  - delay: 128
+    content: C
+  - delay: 128
+    content: "\r\n"
+  - delay: 173
+    content: "\e[2J\e[0f\e[?25l\e[36m⠋\e[39m Loading Stock Info"
+  - delay: 80
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading Stock Info"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠸\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠼\e[39m Loading Stock Info"
+  - delay: 91
+    content: "\e[2K\e[1G\e[36m⠴\e[39m Loading Stock Info"
+  - delay: 85
+    content: "\e[2K\e[1G\e[36m⠦\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠧\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠇\e[39m Loading Stock Info"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠏\e[39m Loading Stock Info"
+  - delay: 82
+    content: "\e[2K\e[1G\e[36m⠋\e[39m Loading Stock Info"
+  - delay: 83
+    content: "\e[2K\e[1G\e[36m⠙\e[39m Loading Stock Info"
+  - delay: 84
+    content: "\e[2K\e[1G\e[36m⠹\e[39m Loading Stock Info"
+  - delay: 61
+    content: "\e[2K\e[1G\e[?25h"
+  - delay: 40
+    content: "\e[90m\e[34m╔\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m╗\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[92mPhilippine Stock Exchange CLI Tracker v0.1.1\e[39m\e[22m        \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[93mAs of 4/7/2020, 12:50:00 PM\e[39m\e[22m                         \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m╤\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[96mName\e[39m\e[22m                    \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mJollibee\e[39m\e[22m                  \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[31mSymbol\e[39m\e[22m                  \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mJFC\e[39m\e[22m                       \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[93mPrice\e[39m\e[22m                   \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37mPHP 110.50\e[39m\e[22m                \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[32m% Change\e[39m\e[22m                \e[90m\e[34m│\e[90m\e[39m \e[92m4.25%\e[39m                     \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[39m\e[90m\e[34m┼\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[1m\e[34mVolume\e[39m\e[22m                  \e[90m\e[34m│\e[90m\e[39m \e[1m\e[37m2,745,330\e[39m\e[22m                 \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╧\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[37mSource: \e]8;;https://phisix-api.appspot.com\ahttps://phisix-api.appspot.com\e]8;;\a\e[39m              \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╟\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m─\e[90m\e[34m╢\e[90m\e[39m\r\n\e[90m\e[34m║\e[90m\e[39m \e[37mCode: \e]8;;https://github.com/ianvizarra/pse-tracker-cli\ahttps://github.com/ianvizarra/pse-tracker-cli\e]8;;\a\e[39m \e[90m\e[34m║\e[90m\e[39m\r\n\e[90m\e[34m╚\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m═\e[90m\e[34m╝\e[90m\e[39m\r\n\r\n Love this project? Please consider to support the \r\n development by means of coffee!\r\n\r\n \e]8;;https://www.buymeacoffee.com/ianvizarra\a\e[32mhttps://www.buymeacoffee.com/ianvizarra\e[39m\e]8;;\a \r\n\r\n Follow me on twitter for more updates!\r\n \e]8;;https://twitter.com/@ianvizarra\a\e[34m@ianvizarra\e[39m\e]8;;\a\r\n\r\n\e[?25h"
+  - delay: 18
+    content: "\r\n\e[32mianvizarra $ \e[39m"
+  - delay: 1012
+    content: "exit\r\n"
