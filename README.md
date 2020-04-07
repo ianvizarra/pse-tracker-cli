@@ -1,4 +1,4 @@
-Philippine Stock Exchange CLI Tracker
+Philippine Stock Exchange Tracker CLI
 ===============
 
 Display stock information on your console
@@ -11,11 +11,11 @@ Display stock information on your console
 [![Downloads/week](https://img.shields.io/npm/dw/pse-tracker-cli.svg)](https://npmjs.org/package/pse-tracker-cli)
 [![License](https://img.shields.io/npm/l/pse-tracker-cli.svg)](https://github.com/ianvizarra/pse-tracker-cli/blob/master/package.json)
 
-<!-- toc -->
+
 - [Usage](#usage)
-<!-- tocstop -->
+
 # Usage
-<!-- usage -->
+
 ```sh-session
 $ npm install -g pse-tracker-cli
 
