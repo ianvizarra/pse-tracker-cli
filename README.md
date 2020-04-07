@@ -32,7 +32,7 @@ USAGE
 
 ## License
 
-COVID-19 Tracker CLI is licensed under MIT - <https://opensource.org/licenses/MIT>
+Philippine Stock Exchange Tracker CLI is licensed under MIT - <https://opensource.org/licenses/MIT>
 
 ## Code of Conduct
 
@@ -40,4 +40,4 @@ COVID-19 Tracker CLI is licensed under MIT - <https://opensource.org/licenses/MI
 
 ## Sources
 
-* API from [NovelCOVID API](https://github.com/NovelCOVID/API) which based on [WorldMeter](https://www.worldometers.info/coronavirus)
+* API from [Phisix API](https://github.com/edgedalmacio/phisix)
