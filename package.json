@@ -1,7 +1,7 @@
 {
   "name": "pse-tracker-cli",
   "description": "Philippines Stock Market CLI Tracker Tool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "ianvizarra @ianvizarra",
   "bin": {
     "pse": "./bin/run"
