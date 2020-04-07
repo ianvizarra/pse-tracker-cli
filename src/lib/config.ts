@@ -1,1 +1,1 @@
-export const apiURL = `https://phisix-api.appspot.com`
+export const apiURL = 'https://phisix-api.appspot.com'
