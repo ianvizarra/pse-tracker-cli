@@ -51,7 +51,7 @@ USAGE
 
 ## License
 
-Philippine Stock Exchange Tracker CLI is licensed under MIT - <https://opensource.org/licenses/MIT>
+Philippine Stock Exchange Tracker CLI is licensed under GPL-3.0 - <https://opensource.org/licenses/GPL-3.0>
 
 ## Code of Conduct
 

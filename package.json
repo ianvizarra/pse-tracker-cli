@@ -56,7 +56,7 @@
     "psei",
     "ian vizarra"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "main": "lib/index.js",
   "oclif": {
     "bin": "pse"
