@@ -51,7 +51,7 @@ USAGE
 
 ## License
 
-Philippine Stock Exchange Tracker CLI is licensed under GPL-3.0 - <https://opensource.org/licenses/GPL-3.0>
+Philippine Stock Exchange Tracker CLI is licensed under GNU General Public License v3 - <https://opensource.org/licenses/GPL-3.0>
 
 ## Code of Conduct
 
@@ -60,3 +60,22 @@ Philippine Stock Exchange Tracker CLI is licensed under GPL-3.0 - <https://opens
 ## Sources
 
 * API from [Phisix API](https://github.com/edgedalmacio/phisix)
+
+
+## Donate or Support
+
+If you love this project please consider to support the development of this command line tracker by means of coffee. Be a sponsor or backer of this project. Just a cup of coffee!
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?style=for-the-badge)](https://paypal.me/ianvizarra)
+[![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-orange.svg?style=for-the-badge)](https://buymeacoff.ee/ianvizarra)
+
+## Author
+
+Philippine Stock Exchange Tracker CLI is Developed and Maintained by **Ian Vizarra**
+
+* **Twitter:** <https://twitter.com/ianvizarra>
+* **Email:** ian.vizarra(at)gmail[.]com
+
+---
+
+**</>** with **<3** by **Ian Vizarra**
